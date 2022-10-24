@@ -1,0 +1,39 @@
+{
+    "students": {
+        "student":[ {
+            "alumne": "alumne1",
+            "name": "Antonio",
+            "surname": "Alamo",
+            "email": "aalmo@gmail.com",
+            "dni": "24375581C"
+        },
+        {
+            "alumne": "alumne2",
+            "name": "Ane",
+            "surname": "San Juan",
+            "email": "asjuan@gmail.com",
+            "dni": "16413242M"
+        },
+         {
+            "alumne": "alumne3",
+            "name": "Pablo Jose",
+            "surname": "Diaz",
+            "email": "pjdiaz@gmaill.com",
+            "dni": "41200104C"
+        },
+         {
+            "alumne": "alumne4",
+            "name": "Maria",
+            "surname": "Nieves Canales",
+            "email": "mncanales@gmail.com",
+            "dni": "96447561M"
+        },
+         {
+            "alumne": "alumne5",
+            "name": "Rafael",
+            "surname": "Serna",
+            "email": "rserne@gmail.com",
+            "dni": "69183430M"
+        }]
+    }
+}
