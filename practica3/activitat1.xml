@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<students>
+    <student alumne = "alumne1">
+        <name>Antonio</name>
+        <surname>Alamo</surname>
+        <email>aalmo@gmail.com</email>
+        <dni>24375581C</dni>
+    </student>
+    <student alumne = "alumne2">
+        <name>Ane</name>
+        <surname>San Juan</surname>
+        <email>asjuan@gmail.com</email>
+        <dni>16413242M</dni>
+    </student>
+    <student alumne = "alumne3">
+        <name>Pablo Jose</name>
+        <surname>Diaz</surname>
+        <email>pjdiaz@gmaill.com</email>
+        <dni>41200104C</dni>
+    </student>
+    <student alumne = "alumne4">
+        <name>Maria</name>
+        <surname>Nieves Canales</surname>
+        <email>mncanales@gmail.com</email>
+        <dni>96447561M</dni>
+    </student>
+    <student alumne = "alumne5">
+        <name>Rafael</name>
+        <surname>Serna</surname>
+        <email>rserne@gmail.com</email>
+        <dni>69183430M</dni>
+    </student>
+</students>
