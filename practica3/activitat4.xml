@@ -1,0 +1,8 @@
+<bookstore>
+    <book>
+        <title>Todo arde</title>
+        <publisher>Alamo</publisher>
+        <cover>Juan Gómez-Jurado</cover>
+        <dni>Tapa Dura</dni>
+        <price>22,90 €</price>
+    </book>
