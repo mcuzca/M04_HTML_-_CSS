@@ -1,0 +1,21 @@
+.Titol{
+	color: blue;
+	text-align: center;
+}
+/* Modifico els parametres table, th i td.
+Li fico el borde, un margin perque hi quedi centrat i he canviat la font de la lletra*/
+table, th, td{ 
+	position: static;
+	border: 2px solid black;
+	margin-left: 25%;
+	width:49%;
+	font-size: 15px;
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+.TitolT{
+	font-weight: bolder;
+}
+th{
+	background: #9E9694;
+}
