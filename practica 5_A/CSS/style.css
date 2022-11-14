@@ -1,0 +1,26 @@
+.titulo{
+    color: rgb(238, 0, 0); /**  He definido el color de titulo*/
+    font-size: 17px; /**  He definido el tamaño del texto*/
+    padding-bottom: 15px; /**  He definido un padding hacia abajo*/
+    padding-top: 15px; /**  He definido un padding hacia arriba */
+    font-weight: bold;
+}
+
+table {
+    position: static; /**  He definido que la linea que sea estatica */
+    border: 3px solid brown; /**  He definido que sea 3px la linia de color marron */
+    background-color: rgb(228, 181, 118); /**  He definido el color de fondo de la tabla*/
+}
+td,th{
+    text-align: center;
+    color: blueviolet;
+}
+th{
+    color: black;
+}
+#juego{ 
+    color: green;
+}
+#Plataforma{
+    color: blue;
+}
