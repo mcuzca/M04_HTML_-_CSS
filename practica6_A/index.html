@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+    <h2>Formulario HTML</h2>
+    <form action="archivo"></form>
+    <label>Nom</label><input type="text" name="nom" id="nom"><br><br>
+    <!--las etiquetas hay que definir de que tipo son y poner un nombre -->
+    <label>Cognom</label><input type="text" name="cognom" id="cognom"><br><br>
+    <!-- En la edad he pusto un minimo y un maximo -->
+    <label>Edat</label><input number="number" min="5" max="65"><br><br>
+    <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+    <!-- He puesto el atributo checked para marcar por defecto las opciones -->
+    <label >DAM</label><input type="radio" name="Opciones"  checked><br>
+    <label >ASIX</label><input type="radio" name="Opciones" ><br>
+    <label >Altre..</label><input type="radio" name="Opciones"  ><br>
+    <p>Marca les teves aficions:</p>
+    <!-- Ahora he creado un checkbox -->
+    <label for="Estudiar">Estudiar</label><input type="checkbox" name="Estudiar" id="Estudiar"checked ><br>
+    <label for="ASIX">ASIX</label><input type="checkbox" name="ASIX" id="ASIX"><br>
+    <label for="Llibres">Llibres</label><input type="checkbox" name="Llibres" id="Llibres"><br>
+    <label for="Jugar a Magic">Jugar a Magic</label><input type="checkbox" name="Jugar a Magic" id="Jugar a Magic"><br>
+    <label for="Fer burilles">Fer burilles</label><input type="checkbox" name="Fer burilles" id="Fer burilles"><br>
+    <label for="Altres">Altres</label><textarea name="message" cols="50" rows="10"></textarea><br>
+    <label for="HTML">L'estàndard d'HTML que més m'agrada:</label>
+    <!--Ahora estoy creando un desplegable con diferentes opciones-->
+    <select name="HTML" id="HTML">
+        <option value="HTML 4.01">HTML 4.01</option>
+        <!-- He puesto selected para seleccionar una opcion predeterminada-->
+        <option value="HTML5"selected>HTML5</option>
+        <option value="XHTML 1.0" >XHTML 1.0</option>
+    </select>
+</form>
+</body>
+</html>
