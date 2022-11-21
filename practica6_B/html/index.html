@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+	<body>
+		<!-- L'etiqueta form significa formulari -->
+		<form>
+      	<p>Nom:</p>
+     	<input type="text" name="text">
+     	<br>
+     	<p>Correu:</p>
+      	<input type="email" name="email">
+     	<br>
+     	<p>Edad:</p>
+     	<input type="number" name="number">
+     	<br>
+     	<br>
+     	<!-- Opcio d'una sola seleccio (no he pogut solucionar el triar una sola opcio) -->
+     	<p>Cicle formatiu que es vol cursar l'any vinent</p>
+     	<label for="DAM">DAM<input type="radio" id="DAM"name="DAM" value="DAM" checked></label><br>
+     	<label for="ASIXS">ASIXS<input type="radio" id="ASIX"name="ASIX" value="ASIX"></label><br>
+     	<label for="Altres">Altres<input type="radio" id="Altres"name="Altres" value="Altres"></label>
+     	<br>
+     	<br>
+     	<!-- Opcio multiresposta -->
+      	<p>Marca les teves aficions</p>
+      	<label>Estudiar</label><input type="checkbox"checked><br>
+      	<label>ASIX<input type="checkbox"></label><br>
+      	<label>Llibres<input type="checkbox"></label><br>
+      	<label>Jugar a Magic<input type="checkbox"></label><br>
+      	<label>Fer burilles<input type="checkbox"></label><br>
+      	<div>
+        	<label for="Altres">Altres</label>
+      	</div>
+      	<textarea name="message" rows="10" cols="50"></textarea>
+      	<br>
+      	<!-- Menu desplegable -->
+      	<label>L'estandard d'HTML que més m'agrada.</label>
+      	<select id="HTML">
+        <option value="HTML">HTML 4.01</option>
+        <option value="XHTML">XHTML 1.0</option>
+        <option selected >HTML5</option>
+      </select>
+	</body>
+</html>
