@@ -1,0 +1,54 @@
+/* En la clase "Amarillo" creo el recuadre.
+   Dintre podem trovar:
+   Alçada, llargada, marge per l'esquerra
+   marge per l'autura, posicio relativa i 
+   el fons de color groc*/
+.amarillo{
+	height: 120px;
+	width: 160px;
+	margin-left: 20px;
+	margin-top: 40px;
+	position: relative;
+	background: #FFFF4E;
+}
+/* En la clase "Azul" creo el recuadre.
+   Dintre podem trovar:
+   Alçada, llargada, marge per l'esquerra
+   marge per l'autura, posicio absoluta i 
+   el fons de color blau*/
+.azul{
+	height: 40px;
+	width: 40px;
+	margin-left: 20px;
+	position: absolute;
+	bottom: left;
+	margin-top: 20px;
+	background: #4E87FF;
+}
+/* En la clase "Verde" creo el recuadre.
+   Dintre podem trovar:
+   Alçada, llargada, marge per l'esquerra
+   marge per l'autura, posicio absoluta i 
+   el fons de color verd*/
+.verde{
+	height: 120px;
+	width: 160px;
+	margin-left: 100px;
+	position: absolute;
+	top: 140px;
+	background: #4EFF66;
+}
+/* En la clase "Rojo" creo el recuadre.
+   Dintre podem trovar:
+   Alçada, llargada, marge per l'esquerra
+   marge per l'autura, posicio absoluta i 
+   el fons de color vermell*/
+.rojo{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	bottom: rigth;
+	margin-top: 60px;
+	margin-left: 100px;
+	background: #FF4E4E;
+}
