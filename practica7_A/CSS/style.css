@@ -1,0 +1,32 @@
+#cuadrado1{
+    background: rgb(35, 136, 204); /* Color de fondo de cuadrado1  */
+    height: 120px; /*Esta es la altura del cuadrado1*/
+    width: 160px; /*Este es el ancho del cuadrado1*/
+    margin-left: 20px; /*Este es el margen de la izquierda*/
+    margin-top: 40px;  /*Este es el margen de arriba */
+    position: relative; /*La posicion de cuadrado1 es relativa*/
+}
+#cuadrado2{
+    background: rgb(245, 245, 61);
+    width: 40px; /*Este es el ancho del cuadrado2*/
+    height: 40px; /*Esta es la altura del cuadrado2*/
+    margin-left: 20px; /*Este es el margen de la izquierda del cuadrado2*/
+    margin-top: 30px; /*Este es el margen de arriba */
+    position:absolute; /*La posicion de cuadrado2 es absoluta*/
+}
+#cuadrado3{
+    background: rgb(241, 72, 72);
+    height: 120px;
+    width: 160px;
+    margin-left: 120px;
+    top: 130px;
+    position: absolute;
+    }
+#cuadrado4{
+    background: rgb(36, 185, 118);
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+    position:absolute;
+    margin-top: 60px;
+}
