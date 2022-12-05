@@ -1,0 +1,23 @@
+*{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cabecera-derecha{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.cabecera-izquierda{
+    display: flex;
+    
+}
+
+
+.imagen-google{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
