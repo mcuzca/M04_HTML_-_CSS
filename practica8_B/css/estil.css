@@ -1,0 +1,33 @@
+.posicion{
+	margin-left: 82%;
+}
+.texto{
+	font-size: 16px;
+	color: black;
+}
+.boton{
+	height: 40px;
+	width: 125px;
+	background-color: #007DF9;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.Google{
+	height: 150x;
+	width: 250px;
+	margin-left: 42%;
+	margin-top: 2%;
+}
+.Foto1{
+	margin-left: 50%;
+}
+.info1{
+
+}
+.Foto2{
+	margin-left: 15%;
+}
+.info2{
+	margin-left: 15%;
+}
