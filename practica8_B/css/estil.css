@@ -1,7 +1,12 @@
 .posicion{
-	margin-left: 82%;
+	margin-left: 81%;
 }
-.texto{
+.texto1{
+	margin-right: 4%;
+	font-size: 16px;
+	color: black;
+}
+.texto2{
 	font-size: 16px;
 	color: black;
 }
@@ -14,20 +19,55 @@
 	border-radius: 5px;
 }
 .Google{
-	height: 150x;
+	height: 150px;
 	width: 250px;
 	margin-left: 42%;
 	margin-top: 2%;
 }
 .Foto1{
-	margin-left: 50%;
+	width: 125px; 
+	height: 175px;
+	margin-left: 60%;
+}
+.nom{
+	text-align: center;
+	margin-left: 42%;
 }
 .info1{
-
+	margin-left: 50%;
+	text-align: justify;
 }
 .Foto2{
-	margin-left: 15%;
+	width: 125px; 
+	height: 175px;
+	margin-left: 17%;
 }
 .info2{
 	margin-left: 15%;
+	text-align: justify;
+}
+.footer1{
+	margin-left: 1%;
+	margin-right: 40%;
+	color: black;
+}
+.footer2{
+	margin-left: 68%;
+	color: black;
+}
+.footer{
+   	left: 0;
+   	bottom: 0;
+   	height: 100%;
+   	width: 100%;
+   	background-color: #CCCCCC;
+   	color: black;
+   	font-size: 16px;
+}
+.texto3{
+	margin-left: 1%;
+	color: black;
+}
+.texto4{
+	color: black;
 }
