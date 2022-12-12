@@ -1,12 +1,21 @@
-.posicion{
-	margin-left: 81%;
+.posicion2{
+	margin-right:1%;
+	float: right;
+}
+.texto{
+	margin-left: 1%;
+	font-size: 16px;
+	color: black;
 }
 .texto1{
-	margin-right: 4%;
 	font-size: 16px;
 	color: black;
 }
 .texto2{
+	font-size: 16px;
+	color: black;
+}
+.texto3{
 	font-size: 16px;
 	color: black;
 }
@@ -52,7 +61,7 @@
 	color: black;
 }
 .footer2{
-	margin-left: 68%;
+	margin-left: 67%;
 	color: black;
 }
 .footer{
@@ -64,10 +73,10 @@
    	color: black;
    	font-size: 16px;
 }
-.texto3{
+.texto4{
 	margin-left: 1%;
 	color: black;
 }
-.texto4{
+.texto5{
 	color: black;
 }
