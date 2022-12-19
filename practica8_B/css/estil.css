@@ -36,23 +36,25 @@
 .Foto1{
 	width: 125px; 
 	height: 175px;
-	margin-left: 60%;
+	margin-left: 46%;
 }
-.nom{
-	text-align: center;
-	margin-left: 42%;
+.nom1{
+	margin-left: 46%;
 }
 .info1{
-	margin-left: 50%;
+	margin-left: 10%;
 	text-align: justify;
 }
 .Foto2{
-	width: 125px; 
+	width: 152px; 
 	height: 175px;
-	margin-left: 17%;
+	margin-left: 32%;
+}
+.nom2{
+	margin-left: 32%;
 }
 .info2{
-	margin-left: 15%;
+	margin-left: 5%;
 	text-align: justify;
 }
 .footer1{
