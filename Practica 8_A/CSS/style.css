@@ -1,59 +1,187 @@
-*{
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Especificando el tipo de letra en para todo el archivo */
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;  /* Especificando una separacion */
+}
+
+a {
+    text-decoration: none;
 }
 
 .cabecera-derecha {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    align-items: center;/* Especificando los elementos al centro */
+    margin-top: 20px; /* Especificando el margen de arriba */
 }
-.cabecera-izquierda{
+
+.cabecera-izquierda {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Gmail {
+    margin-right: 20px; /* Especificando un margen hacia la derecha para poner una separacion*/
+}
+
+.Imatges {
+    margin-right: 20px;
+}
+
+.sobre-google {
+    margin-right: 20px;
+    margin-left: 20px;/* Especificando un margen hacia la izquierda para poner una separacion*/
+
+}
+
+.boton-iniciar-sesion {
+    background-color: #2b7de9; /* Color de fondo del boton*/
+    border: none;
+    border-color: #2b7de9; /* Color del borde del boton*/
+    color: #FFF; /* Color de la letra del boton*/
+    height: 36px;
+    width: 114px;
+    border-radius: 4px; /* Borde 4px redondeado*/
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px; /* Tamaño de la letra del boton*/
+
+}
+
+.boton-iniciar-sesion:hover {
+    cursor: pointer; /* Esto sirve para hacer el click*/
+    background-color: #2b7de9; /* Color de fondo del boton*/
+
+}
+
+.imagen-google {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Centrando la imagen de Google*/
+
+}
+
+.buscador-google {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.barra-de-busqueda {
+    width: 600px; /* Ancho de la barra de busqueda*/
+    border: solid 1px #8c8c8f; /* Borde del buscador de google*/
+    border-radius: 100px;
+    display: flex;
     align-items: center;
 }
 
-.boton-iniciar-sesion{
-    background-color: rgb(116, 190, 254);
-    border-radius: 7px;
-    border-color: rgb(116, 190, 254);
-}
-.buscar-google{
-    background-color: rgb(202, 207, 207);
-    border-radius: 5px;
-}
-.suerte-google{
-    background-color: rgb(202, 207, 207);
-    border-radius: 5px;
-}
-.imagen-google{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    
-}
-.seccion-idiomas{
-    display: flex;
-    justify-content: center;
+.search-icon {
+    width: 20px;
+    margin-left: 12px;
 }
 
-.link1{
+.keyboard-google {
+    width: 20px;
+    margin-left: 12px;
+}
+
+.texto-google {
+    width: 480px;
+    height: 40px;
+    border: none;
+    outline: none;  /* Quitando la linea del input text*/
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+
+.seccion-idiomas {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.link1 {
     margin-right: 10px;
     margin-left: 10px;
 }
-.link2{
+
+.link2 {
     margin-right: 10px;
 }
-.link3  {
+
+.link3 {
     margin-right: 10px;
 }
-.botones-de-google{
+
+.botones-de-google {
     display: flex;
     justify-content: center;
-    
 }
-.buscar-google{
-    margin-right: 1%;
+
+.suerte-google {
+    height: 36px;
+    background-color: #dfe1e4; /* Color del fondo del boton*/
+    border: none;
+    border-radius: 4px;
+    padding: 0px 16px;
+}
+
+.suerte-google:hover {
+    cursor: pointer;
+    background-color: #dfe1e4;
+}
+
+.buscar-google {
+    margin-right: 15px;
+    height: 36px;
+    background-color: #dfe1e4;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 16px;
+}
+
+.buscar-google:hover {
+    cursor: pointer;
+    background-color: #dfe1e4;
+}
+
+.pais-españa {
+    margin-bottom: px;
+    background-color: #cacbcc;
+    padding: 20px 30px 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cacbcc;
+    padding: 15px 30px 25px;
+    margin-top: -20px;
+    border-top: 1px solid #070707;
+}
+
+.Privacidad {
+    margin-right: 20px; /* Poniendo un margen hacia la derecha*/
+}
+
+.Términos {
+    margin-right: 20px;
+}
+
+.Publicidad {
+    margin-right: 20px;
+}
+
+.Empresa {
+    margin-right: 20px;
 }

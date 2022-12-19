@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Practica 8: Pagina Google</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--Link de mi archivo CSS-->
+    <title>Practica 8: Pagina Google (Español)</title>
+  </head>
+  <body>
     <header>
-        <div>
-            <div class="cabecera-derecha">
-                <a href="" class="Gmail">Gmail</a>
-                <a href="" class="Imatges">Imatges</a>
-                <img src="Imagenes/menu apps.png">
-                <button class="boton-iniciar-sesion">Iniciar sesion</button>
-            </div>
-             <div>
-            <div class="cabecera-izquierda">
-            <a href="" class="texto1">sobre google</a>
-            <a href="" class="texto2">Imatges</a>
-        </div>
+      <div class="cabecera-izquierda">
+        <!--He separado las cabeceras por ixquierda y derecha-->
+        <a class="sobre-google">Sobre Google</a>
+        <a class="texto2">Tienda</a>
+      </div>
+      <div class="cabecera-derecha">
+        <a class="Gmail">Gmail</a>
+        <a class="Imatges">Imagenes</a>
+        <img src="Imagenes/menu-google.png" width="30px" class="apps-img" />
+        <button class="boton-iniciar-sesion">Iniciar sesion</button>
+      </div>
     </header>
+
     <div class="imagen-google">
-        <img src="Imagenes/Google.png" width="400px">
+      <!--Esta es la seccion de la imagen de Google-->
+      <img src="Imagenes/Google_2015_logo.svg.png" width="300px" />
     </div>
+    <div class="buscador-google">
+      <div class="barra-de-busqueda">
+        <!--Esta es la seccion del buscador de google-->
+        <img src="Imagenes/search.png" class="search-icon" />
+        <input type="text" class="texto-google" />
+      </div>
+    </div>
+
     <div class="botones-de-google">
-        <button class="buscar-google">Buscar con Google</button>
-        <button class="suerte-google">Me siento con suerte</button>
+      <!--Esta es la seccion de los botones de google-->
+      <button class="buscar-google">Buscar con Google</button>
+      <button class="suerte-google">Voy a tener suerte</button>
     </div>
-  <div class="seccion-idiomas">
-        <a> Google disponible en: </a>
-        <a href="" class="link1">Catalan</a>
-        <a href="" class="link2">Español</a>
-        <a href="" class="link2">Ingles</a>
-      
-  </div>
-    <footer>
-        <div class="pais-españa">
-            <a href="" class="pais">España</a>
+    <div class="seccion-idiomas">
+      <!--Esta es la seccion de los links-->
+      <a> Google disponible en: </a>
+      <a href="http://127.0.0.1:5501/Pagina_Google_Catalan.html" class="link1"
+        >Catalan</a
+      >
+      <a href="http://127.0.0.1:5501/Pagina_Google_Ingles.html" class="link2"
+        >Ingles</a
+      >
+    </div>
+    <div class="funciones-opcionales-footer">
+      <div class="pais-españa">
+        <a class="pais">España</a>
+        <!--Esta es la seccion del footer-->
+      </div>
+      <footer>
+        <div class="funciones-opcionales">
+          <a class="Publicidad">Publicidad</a>
+          <a class="Empresa">Empresa</a>
+          <a class="Busqueda">Cómo funciona la Búsqueda</a>
         </div>
-        <div class="footer1">
-            <a href="" class="texto4">Publicitat</a>
-            <a href="" class="texto4">Empresa</a>
-            <a href=""class="footer2">Privadesa</a>
-            <a href="" class="texto4">Condicions</a>
-            
+        <div class="funciones-opcionales2">
+          <a class="Privacidad">Privacidad</a>
+          <a class="Términos">Términos</a>
+          <a class="Configuración">Configuración</a>
         </div>
-        <div class="footer2">
-            <a href="" class="texto4">Condicions</a>
-            <a href="" class="texto4">Configuració</a>
-            <a href="" class="texto4">Configuració</a>
-        </div>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
