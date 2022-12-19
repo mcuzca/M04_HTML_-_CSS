@@ -3,21 +3,57 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.cabecera-derecha{
+.cabecera-derecha {
     display: flex;
     justify-content: flex-end;
-    
+    align-items: center;
 }
 .cabecera-izquierda{
     display: flex;
-    
+    justify-content: flex-start;
+    align-items: center;
 }
 
-
+.boton-iniciar-sesion{
+    background-color: rgb(116, 190, 254);
+    border-radius: 7px;
+    border-color: rgb(116, 190, 254);
+}
+.buscar-google{
+    background-color: rgb(202, 207, 207);
+    border-radius: 5px;
+}
+.suerte-google{
+    background-color: rgb(202, 207, 207);
+    border-radius: 5px;
+}
 .imagen-google{
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
     
+}
+.seccion-idiomas{
+    display: flex;
+    justify-content: center;
+}
+
+.link1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.link2{
+    margin-right: 10px;
+}
+.link3  {
+    margin-right: 10px;
+}
+.botones-de-google{
+    display: flex;
+    justify-content: center;
+    
+}
+.buscar-google{
+    margin-right: 1%;
 }
